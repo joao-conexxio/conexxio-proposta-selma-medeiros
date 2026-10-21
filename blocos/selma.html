@@ -1,0 +1,49 @@
+<section class="blk-selma" id="selma">
+  <div class="wrap blk-selma__in">
+    <div class="blk-selma__fotos">
+      <div class="blk-selma__foto" data-parallax><!--foto:midia/cand-06-c.jpg|Selma Medeiros diante do logo da clínica, na parede de mármore da recepção--></div>
+      <div class="blk-selma__certificados" data-reveal style="--d:160ms"><!--foto:midia/cand-03-c.jpg|Estante com os certificados de formação da Selma--></div>
+    </div>
+    <div class="blk-selma__texto" data-reveal>
+      <p class="blk-selma__eyebrow">Quem atende</p>
+      <h2 class="blk-selma__titulo">Selma Medeiros, quase trinta anos no Centro de Florianópolis</h2>
+      <p class="blk-selma__lead" data-acende>Quem marca horário aqui é atendida pela Selma. Ela cuida de pele e corpo na região desde o fim dos anos 1990 e foi se especializando no que a maior parte das clínicas trata como detalhe: a pele madura, que pede outro ritmo, outros ativos e outra conversa.</p>
+      <ul class="blk-selma__lista">
+        <li><span class="blk-selma__icone"><!--icone:rosto--></span>Pele madura: firmeza, manchas, olheiras e textura</li>
+        <li><span class="blk-selma__icone"><!--icone:mulher--></span>Estética facial e corporal no mesmo lugar</li>
+        <li><span class="blk-selma__icone"><!--icone:estrela--></span>Formações expostas na parede da sala, para quem quiser ver</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<style>
+.blk-selma{padding-block:var(--sp-section)}
+.blk-selma__in{display:grid;gap:var(--sp-5);align-items:center}
+@media (min-width:56rem){.blk-selma__in{grid-template-columns:1fr 1fr}}
+.blk-selma__fotos{position:relative;padding-bottom:var(--sp-5)}
+.blk-selma__foto{aspect-ratio:4/5;border-radius:var(--r);overflow:hidden;max-width:30rem}
+.blk-selma__foto img{width:100%;height:100%;object-fit:cover;object-position:62% center;display:block}
+.blk-selma__certificados{
+  position:absolute;right:0;bottom:0;width:42%;aspect-ratio:3/4;
+  border-radius:var(--r);overflow:hidden;border:6px solid var(--bg);
+}
+.blk-selma__certificados img{width:100%;height:100%;object-fit:cover;display:block}
+.blk-selma__eyebrow{
+  margin:0 0 var(--sp-2);font-family:var(--f-body);font-size:var(--t-label);
+  letter-spacing:var(--eyebrow-track);text-transform:uppercase;color:var(--brand);
+}
+.blk-selma__titulo{
+  margin:0;font-family:var(--f-display);font-size:var(--t-h2);
+  line-height:var(--lh-display);text-wrap:balance;color:var(--ink);
+}
+.blk-selma__lead{margin:var(--sp-3) 0 0;font-size:1.15rem;color:color-mix(in srgb,var(--ink) 80%,transparent)}
+.blk-selma__lista{list-style:none;margin:var(--sp-4) 0 0;padding:0;display:grid}
+.blk-selma__lista li{
+  display:flex;gap:var(--sp-2);align-items:center;padding-block:var(--sp-2);
+  border-top:1px solid color-mix(in srgb,var(--ink) 12%,transparent);
+  color:color-mix(in srgb,var(--ink) 80%,transparent);
+}
+.blk-selma__icone{flex:none;display:inline-flex;width:1.75rem;height:1.75rem;color:var(--brand)}
+.blk-selma__icone svg{width:100%;height:100%}
+</style>

@@ -1,0 +1,39 @@
+<section class="blk-salas" id="salas">
+  <div class="wrap blk-salas__in">
+    <div class="blk-salas__foto" data-reveal><!--foto:midia/cand-08.jpg|Sala com mesa de mármore e janela para a cidade--></div>
+    <div class="blk-salas__texto" data-reveal style="--d:140ms">
+      <p class="blk-salas__eyebrow">Para profissionais</p>
+      <h2 class="blk-salas__titulo">Salas para alugar no 6º andar</h2>
+      <p class="blk-salas__lead">Profissionais da saúde e do bem-estar podem atender no mesmo espaço, por período, num andar alto do Centro.</p>
+      <a class="blk-salas__cta" href="https://wa.me/554896441186?text=Ol%C3%A1%2C%20quero%20saber%20sobre%20o%20aluguel%20de%20sala." target="_blank" rel="noopener">Perguntar sobre as salas</a>
+    </div>
+  </div>
+</section>
+
+<style>
+.blk-salas{
+  padding-block:var(--sp-section);
+  border-top:1px solid color-mix(in srgb,var(--ink) 12%,transparent);
+}
+.blk-salas__in{display:grid;gap:var(--sp-4);align-items:center}
+@media (min-width:56rem){.blk-salas__in{grid-template-columns:1fr 1fr;gap:var(--sp-5)}}
+.blk-salas__foto{aspect-ratio:16/10;border-radius:var(--r);overflow:hidden}
+.blk-salas__foto img{width:100%;height:100%;object-fit:cover;display:block}
+.blk-salas__eyebrow{
+  margin:0 0 var(--sp-2);font-family:var(--f-body);font-size:var(--t-label);
+  letter-spacing:var(--eyebrow-track);text-transform:uppercase;color:var(--brand);
+}
+.blk-salas__titulo{
+  margin:0;font-family:var(--f-display);font-size:var(--t-h2);
+  line-height:var(--lh-display);text-wrap:balance;color:var(--ink);
+}
+.blk-salas__lead{margin:var(--sp-3) 0 0;max-width:34rem;color:color-mix(in srgb,var(--ink) 75%,transparent)}
+.blk-salas__cta{
+  display:inline-block;margin-top:var(--sp-3);padding:.95em 1.6em;
+  border:1px solid var(--brand);border-radius:var(--radius);
+  font-family:var(--f-body);font-size:var(--t-label);letter-spacing:var(--eyebrow-track);
+  text-transform:uppercase;text-decoration:none;color:var(--brand);
+  transition:background .2s,color .2s;
+}
+.blk-salas__cta:hover{background:var(--brand);color:var(--bg)}
+</style>

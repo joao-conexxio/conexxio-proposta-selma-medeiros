@@ -1,0 +1,292 @@
+{
+  "slug": "selma-medeiros",
+  "negocio": {
+    "nome": "Selma Medeiros Estética e Bem-Estar",
+    "whatsapp": "554896441186",
+    "logo": "brand/logo.png",
+    "unidades": [
+      {
+        "bairro": "Centro · Florianópolis/SC",
+        "endereco": "Rua Felipe Schmidt, 249, sala 612 · Centro Comercial ARS, 6º andar",
+        "telefone": "(48) 98414-6801",
+        "horario": "Com hora marcada · agenda online 24 horas"
+      }
+    ]
+  },
+  "marca": {
+    "brand": "#612844",
+    "brand2": "#4A1E34",
+    "ink": "#2B1A22",
+    "bg": "#FCFAF9",
+    "pulse": "#7D3A5D",
+    "radius": "6px",
+    "registro": "editorial",
+    "fontDisplay": "Fraunces",
+    "fontBody": "Jost",
+    "tomHero": "claro",
+    "tomCorpo": "claro"
+  },
+  "motivo": "camadas",
+  "secoes": [
+    {
+      "id": "header",
+      "variant": "sticky-cta",
+      "data": {
+        "links": [
+          {
+            "texto": "A Selma",
+            "href": "#selma"
+          },
+          {
+            "texto": "Tratamentos",
+            "href": "#tratamentos"
+          },
+          {
+            "texto": "Método Lug",
+            "href": "#metodo"
+          },
+          {
+            "texto": "Onde fica",
+            "href": "#unidades"
+          }
+        ]
+      }
+    },
+    {
+      "id": "hero",
+      "variant": "split-motivo",
+      "data": {
+        "eyebrow": "Estética · Floripa",
+        "h1": "Pele madura, corpo e bem-estar",
+        "lead": "Estética facial, corporal e injetáveis com a Selma Medeiros, no 6º andar da Felipe Schmidt há quase trinta anos. A agenda online fica aberta a qualquer hora.",
+        "cta": "Agendar pelo WhatsApp",
+        "ctaSecundario": "Ver tratamentos",
+        "ctaSecundarioHref": "#tratamentos",
+        "selo": "Aqui você é única · Centro de Floripa · ",
+        "cardTitulo": "Fale com a clínica",
+        "arte": "grao"
+      }
+    },
+    {
+      "id": "fita",
+      "data": {
+        "itens": [
+          "Pele madura",
+          "Criolipólise",
+          "Microagulhamento",
+          "Ultrassom microfocado",
+          "Luz intensa pulsada",
+          "Jato de plasma",
+          "Toxina botulínica",
+          "Bioestimuladores",
+          "Drenagem linfática",
+          "Limpeza de pele",
+          "Pedras quentes",
+          "Spa Day"
+        ]
+      }
+    },
+    {
+      "id": "numeros",
+      "variant": "faixa",
+      "data": {
+        "titulo": "Quase três décadas de agenda cheia",
+        "itens": [
+          {
+            "valor": "28+",
+            "rotulo": "anos atendendo no Centro de Florianópolis",
+            "contar": 28
+          },
+          {
+            "valor": "5,0",
+            "rotulo": "nota das clientes no Google"
+          },
+          {
+            "valor": "373",
+            "rotulo": "avaliações no Google",
+            "contar": 373
+          },
+          {
+            "valor": "97",
+            "rotulo": "procedimentos na agenda online",
+            "contar": 97
+          }
+        ]
+      }
+    },
+    {
+      "custom": "blocos/selma.html"
+    },
+    {
+      "id": "tratamentos",
+      "variant": "pilha",
+      "data": {
+        "titulo": "O que dá para tratar aqui",
+        "lead": "São quase cem procedimentos na agenda. Abaixo, o que eles cobrem, agrupado do jeito que a Selma organiza o atendimento.",
+        "itens": [
+          {
+            "nome": "Pele madura e rejuvenescimento",
+            "descricao": "Radiofrequência, microagulhamento (inclusive com PDRN), ultrassom microfocado full face e peelings, para firmeza, textura e viço.",
+            "icone": "rosto"
+          },
+          {
+            "nome": "Injetáveis",
+            "descricao": "Toxina botulínica, preenchimento com ácido hialurônico em lábios, olheiras, malar, mandíbula e mento, bioestimuladores de colágeno e skinbooster. Começa por uma consulta de avaliação.",
+            "icone": "seringa"
+          },
+          {
+            "nome": "Corpo e gordura localizada",
+            "descricao": "Criolipólise com aplicadores de tamanhos diferentes, protocolos enzimáticos para gordura, flacidez e celulite, corrente russa e terapia por ultrassom.",
+            "icone": "molecula"
+          },
+          {
+            "nome": "Luz e plasma",
+            "descricao": "Luz intensa pulsada no rosto, colo, pescoço e mãos; jato de plasma em olheiras e por área; retirada de pintas, sinais e verrugas.",
+            "icone": "laser"
+          },
+          {
+            "nome": "Limpeza de pele",
+            "descricao": "Três protocolos, do rosto às costas: Prime, Realeza e limpeza de costas.",
+            "icone": "pele"
+          },
+          {
+            "nome": "Bem-estar e spa",
+            "descricao": "Massagem relaxante com pedras quentes e ventosas, drenagem linfática, massagem epicraniana, Spa Day e Spa Completo.",
+            "icone": "spa"
+          }
+        ]
+      }
+    },
+    {
+      "custom": "blocos/metodo.html"
+    },
+    {
+      "id": "manifesto",
+      "variant": "pagina",
+      "data": {
+        "eyebrow": "Como a casa trabalha",
+        "citacao": "Aqui você é única.",
+        "autor": "Selma Medeiros",
+        "texto": [
+          "Ninguém sai daqui com um pacote pronto. A primeira conversa é sobre a sua pele, a sua rotina e o que incomoda de verdade, e o plano sai dessa conversa.",
+          "Pele madura não é pele jovem com mais rugas. Responde em outro tempo, aceita outros ativos e pede alguém que já tenha visto muitas delas mudarem."
+        ],
+        "imagem": "midia/cand-09-c.jpg",
+        "imagemAlt": "Sala de atendimento com duas macas, espelho e janela para a cidade"
+      }
+    },
+    {
+      "id": "galeria",
+      "variant": "mosaico",
+      "data": {
+        "titulo": "O espaço",
+        "lead": "Salas claras no 6º andar, com janela para a cidade, mármore e madeira.",
+        "itens": [
+          {
+            "imagem": "midia/cand-02.jpg",
+            "legenda": "A sala principal, com os certificados na estante iluminada"
+          },
+          {
+            "imagem": "midia/cand-05-c.jpg",
+            "legenda": "Sala de tratamentos corporais"
+          },
+          {
+            "imagem": "midia/cand-07-c.jpg",
+            "legenda": "Sala de procedimentos faciais"
+          }
+        ]
+      }
+    },
+    {
+      "id": "passos",
+      "variant": "timeline",
+      "data": {
+        "titulo": "Do primeiro contato ao retorno",
+        "itens": [
+          {
+            "titulo": "Agende quando der",
+            "texto": "Pela agenda online, que aceita marcação à noite e no fim de semana, ou pelo WhatsApp.",
+            "icone": "agenda"
+          },
+          {
+            "titulo": "Avaliação",
+            "texto": "Na primeira visita a Selma olha a pele, ouve o que incomoda e explica o que faz sentido tratar, e o que não faz.",
+            "icone": "conversa"
+          },
+          {
+            "titulo": "Plano por sessões",
+            "texto": "Você sai sabendo quantas sessões o tratamento pede e o que acontece em cada uma.",
+            "icone": "check"
+          },
+          {
+            "titulo": "Retorno",
+            "texto": "Toxina, preenchimento e criolipólise têm consulta de retorno própria na agenda, para conferir o resultado.",
+            "icone": "estrela"
+          }
+        ]
+      }
+    },
+    {
+      "id": "faq",
+      "variant": "acordeao",
+      "data": {
+        "titulo": "Antes de marcar",
+        "itens": [
+          {
+            "p": "Vocês atendem pele madura?",
+            "r": "É a especialidade da casa. Firmeza, manchas, olheiras e textura são tratadas com protocolos pensados para quem já passou dos 40, dos 50, dos 60."
+          },
+          {
+            "p": "Preciso de avaliação antes de um injetável?",
+            "r": "Sim. Preenchimento e lipo enzimática de papada começam por uma consulta de avaliação; a aplicação é marcada depois, se fizer sentido."
+          },
+          {
+            "p": "Dá para agendar fora do horário?",
+            "r": "Dá. A agenda online fica aberta 24 horas: você escolhe o procedimento e o horário à noite ou no domingo, sem esperar resposta."
+          },
+          {
+            "p": "Onde fica a clínica?",
+            "r": "No Centro Comercial ARS, Rua Felipe Schmidt, 249, 6º andar, sala 612, no Centro de Florianópolis."
+          }
+        ]
+      }
+    },
+    {
+      "id": "unidades",
+      "variant": "unica",
+      "data": {
+        "titulo": "Onde fica",
+        "imagem": "midia/cand-10.jpg"
+      }
+    },
+    {
+      "custom": "blocos/salas.html"
+    },
+    {
+      "id": "cta-final",
+      "variant": "bloco-cheio",
+      "data": {
+        "h2": "Marque sua avaliação com a Selma",
+        "lead": "Pelo WhatsApp ou pela agenda online, no horário que for melhor para você.",
+        "cta": "Chamar no WhatsApp"
+      }
+    },
+    {
+      "id": "footer",
+      "variant": "completo",
+      "data": {
+        "links": [
+          {
+            "texto": "Tratamentos",
+            "href": "#tratamentos"
+          },
+          {
+            "texto": "Onde fica",
+            "href": "#unidades"
+          }
+        ],
+        "aviso": "Procedimentos indicados após avaliação. Resultados variam de pessoa para pessoa."
+      }
+    }
+  ]
+}

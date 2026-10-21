@@ -1,0 +1,71 @@
+<section class="blk-metodo" id="metodo">
+  <div class="wrap">
+    <div class="blk-metodo__cab" data-reveal>
+      <p class="blk-metodo__eyebrow">Só aqui</p>
+      <h2 class="blk-metodo__titulo">Método Lug Fitness, by Selma Medeiros</h2>
+      <p class="blk-metodo__lead">A linha corporal que leva a assinatura da casa. Os nomes não aparecem em outra agenda: o método foi montado aqui, e é a Selma quem conduz.</p>
+    </div>
+    <div class="blk-metodo__corpo">
+      <div class="blk-metodo__foto" data-reveal><!--foto:midia/cand-04-c.jpg|Aparelho de estética na mão, na sala de atendimento com janela--></div>
+      <div class="blk-metodo__cartoes" data-pilha>
+        <article class="blk-metodo__card">
+          <span class="blk-metodo__icone"><!--icone:mao--></span>
+          <div>
+            <h3>Massagem Lug Fitness 3R</h3>
+            <p>A parte manual do método, com o nome dela no protocolo.</p>
+          </div>
+        </article>
+        <article class="blk-metodo__card">
+          <span class="blk-metodo__icone"><!--icone:molecula--></span>
+          <div>
+            <h3>Crio Lug Fitness</h3>
+            <p>O método somado à criolipólise, para quem quer tratar gordura localizada sem cirurgia.</p>
+          </div>
+        </article>
+        <article class="blk-metodo__card">
+          <span class="blk-metodo__icone"><!--icone:pele--></span>
+          <div>
+            <h3>LugCell e CrioLipCel</h3>
+            <p>A versão voltada para celulite, sozinha ou com frio, com retorno já previsto na agenda.</p>
+          </div>
+        </article>
+      </div>
+    </div>
+    <div class="blk-metodo__motivo"><!--motivo:rule--></div>
+  </div>
+</section>
+
+<style>
+.blk-metodo{
+  padding-block:var(--sp-section);
+  background:color-mix(in srgb,var(--brand) 7%,var(--bg));
+}
+.blk-metodo__cab{max-width:44rem;margin-bottom:var(--sp-5)}
+.blk-metodo__eyebrow{
+  margin:0 0 var(--sp-2);font-family:var(--f-body);font-size:var(--t-label);
+  letter-spacing:var(--eyebrow-track);text-transform:uppercase;color:var(--brand);
+}
+.blk-metodo__titulo{
+  margin:0;font-family:var(--f-display);font-size:var(--t-h2);
+  line-height:var(--lh-display);text-wrap:balance;color:var(--ink);
+}
+.blk-metodo__lead{margin:var(--sp-3) 0 0;color:color-mix(in srgb,var(--ink) 75%,transparent)}
+.blk-metodo__corpo{display:grid;gap:var(--sp-4);align-items:start}
+@media (min-width:56rem){.blk-metodo__corpo{grid-template-columns:.85fr 1.15fr;gap:var(--sp-5)}}
+.blk-metodo__foto{aspect-ratio:4/5;border-radius:var(--r);overflow:hidden}
+.blk-metodo__foto img{width:100%;height:100%;object-fit:cover;display:block}
+.blk-metodo__cartoes{display:grid;gap:var(--sp-3)}
+.blk-metodo__card{
+  display:flex;gap:var(--sp-3);align-items:flex-start;
+  padding:var(--sp-4);border-radius:var(--r);background:var(--bg);
+  border:1px solid color-mix(in srgb,var(--brand) 18%,transparent);
+}
+.blk-metodo__icone{flex:none;display:inline-flex;width:2.5rem;height:2.5rem;color:var(--brand)}
+.blk-metodo__icone svg{width:100%;height:100%}
+.blk-metodo__card h3{
+  margin:0 0 var(--sp-1);font-family:var(--f-display);font-size:1.5rem;
+  line-height:1.2;color:var(--ink);font-weight:400;
+}
+.blk-metodo__card p{margin:0;color:color-mix(in srgb,var(--ink) 75%,transparent)}
+.blk-metodo__motivo{margin-top:var(--sp-5);color:var(--brand);opacity:.5}
+</style>
